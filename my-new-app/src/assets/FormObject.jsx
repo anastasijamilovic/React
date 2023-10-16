@@ -2,4 +2,4 @@ const onSubmit = (e) => {
   e.preventDefault();
 };
 
-return <form action=""></form>;
+return <form onSubmit={onSubmit}></form>;

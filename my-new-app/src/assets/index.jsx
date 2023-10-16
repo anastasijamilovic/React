@@ -6,6 +6,7 @@ const Class13 = () => {
   return (
     <div>
       <TextInput onChange={(text) => console.log(text)} />
+      <ListManipulation />
     </div>
   );
 };
